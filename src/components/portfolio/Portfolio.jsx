@@ -1,18 +1,19 @@
 import React from 'react';
-import Project from './Project'; // We'll create this next
+import Project from './Project';
+import styles from './Portfolio.module.css';
 
 function Portfolio() {
   return (
-    <section className="portfolio">
-      <h2>My Portfolio</h2>
-      <div className="projects">
+    <section className={styles.portfolioContainer}>
+      <h2 className={styles.portfolioTitle}>My Portfolio</h2>
+      <div className={styles.projectsGrid}>
         <Project 
-          title="Project 1"
-          image="/path-to-project1-image.jpg"
-          deployedLink="https://project1.com"
-          githubLink="https://github.com/yourusername/project1"
+          title="PWA Text Editor"
+          image="https://via.placeholder.com/300x200"
+          deployedLink="https://my-pwa-text-editor-ab123-b500014d45fc.herokuapp.com/"
+          githubLink="https://github.com/AndrewBlanchard/PWA-Text-Editor"
         />
-        {/* Additional components*/}
+        {/* Add more Project components here */}
       </div>
     </section>
   );

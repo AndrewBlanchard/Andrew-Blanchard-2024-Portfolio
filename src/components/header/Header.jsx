@@ -1,15 +1,19 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from './Header.module.css';
 
 function Header() {
   return (
-    <header>
-      <h1>Your Name</h1>
-      <nav>
-        <Link to="/">About Me</Link>
-        <Link to="/portfolio">Portfolio</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/resume">Resume</Link>
-      </nav>
+    <header className={styles.header}>
+      <div className={styles.container}>
+        <h1 className={styles.title}>Andrew Blanchard</h1>
+        <nav className={styles.nav}>
+          <Link to="/" className={styles.navLink}>About Me</Link>
+          <Link to="/portfolio" className={styles.navLink}>Portfolio</Link>
+          <Link to="/contact" className={styles.navLink}>Contact</Link>
+          <Link to="/resume" className={styles.navLink}>Resume</Link>
+        </nav>
+      </div>
     </header>
   );
 }
