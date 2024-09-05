@@ -1,0 +1,101 @@
+.resumeContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .resumeTitle {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .downloadButton {
+    display: block;
+    width: 200px;
+    margin: 0 auto 30px;
+    padding: 10px;
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .downloadButton:hover {
+    background-color: #023e8a;
+  }
+  
+  .resumeContent {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .name {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .jobTitle {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .contactInfo {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .summary {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .sectionTitle {
+    font-size: 1.3rem;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
+  }
+  
+  .skillsList, .educationList {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .skillsList li, .educationList li {
+    margin-bottom: 10px;
+  }
+  
+  .jobExperience {
+    margin-bottom: 30px;
+  }
+  
+  .jobExperience h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .jobExperience p {
+    margin-bottom: 10px;
+  }
+  
+  .jobExperience ul {
+    padding-left: 20px;
+  }
+  
+  .jobExperience li {
+    margin-bottom: 5px;
+  }

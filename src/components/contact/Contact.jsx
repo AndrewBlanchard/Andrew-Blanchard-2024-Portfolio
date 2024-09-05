@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from './Contact.module.css';
 
 function Contact() {
   const [name, setName] = useState('');
@@ -12,39 +13,43 @@ function Contact() {
   };
 
   return (
-    <section className="contact">
-      <h2>Contact Me</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
+    <section className={styles.contactContainer}>
+      <h2 className={styles.contactTitle}>Contact Me</h2>
+      <img src="Assets/img_1906.jpg" alt="Andrew Blanchard" className={styles.profileImage} />
+      <form onSubmit={handleSubmit} className={styles.form}>
+        <div className={styles.formGroup}>
+          <label htmlFor="name" className={styles.label}>Name:</label>
           <input
             type="text"
             id="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
+            className={styles.input}
           />
         </div>
-        <div>
-          <label htmlFor="email">Email:</label>
+        <div className={styles.formGroup}>
+          <label htmlFor="email" className={styles.label}>Email:</label>
           <input
             type="email"
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
+            className={styles.input}
           />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
+        <div className={styles.formGroup}>
+          <label htmlFor="message" className={styles.label}>Message:</label>
           <textarea
             id="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
+            className={styles.textarea}
           ></textarea>
         </div>
-        <button type="submit">Send</button>
+        <button type="submit" className={styles.submitButton}>Send</button>
       </form>
     </section>
   );
