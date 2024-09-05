@@ -19,11 +19,52 @@ function Project({ title, image, deployedLink, githubLink }) {
 function Portfolio() {
   const projects = [
     {
+      title: "The Language Dungeon",
+      image: "/assets/project_pngs/LD_Logo_600px.png",
+      deployedLink: "https://lb-dungen.onrender.com/",
+      githubLink: "https://github.com/Fitbert/LB-Dungen"
+    },
+
+    {
+      title: "Excercise My Body",
+      image: "assets/project_pngs/Backworkouts.png",
+      deployedLink: "https://nicksprague1342.github.io/Project-1/",
+      githublink: "https://github.com/NickSprague1342/Project-1"
+      
+    },
+
+    {
+      title: "Regex Hex Value Tutorial",
+      image: "assets/project_pngs/coderpad-regex-the-complete-guide.jpg",
+      deployedLink: "https://gist.github.com/AndrewBlanchard/d0d3b555780baca2a2b402d94df810fd",
+      githubLink: "https://github.com/AndrewBlanchard/Regex-Hex-Value-Tutorial/tree/main"
+    },
+
+    {
       title: "PWA Text Editor",
-      image: "/assets/Screenshot-of-Deployed-App.png",
+      image: "assets/project_pngs/JATE_Screenshot.png",
       deployedLink: "https://my-pwa-text-editor-ab123-b500014d45fc.herokuapp.com/",
       githubLink: "https://github.com/AndrewBlanchard/PWA-Text-Editor"
     },
+
+    {
+      title: "Social Network API",
+      image: "assets/project_pngs/15855652400_5c1645560e_b.jpg",
+      deployedLink: "https://www.youtube.com/watch?v=OFHeydgTGrU",
+      githubLink: "https://github.com/AndrewBlanchard/Social-Network-API/tree/master"
+    },
+
+    {
+      title: "SVG Logo Generator",
+      image: "/assets/project_pngs/10-oop-homework-demo.png",
+      deployedLink: "https://www.youtube.com/watch?v=5v0gTRMHEjc",
+      githubLink: "https://github.com/AndrewBlanchard/SVG-Logo-Generator-/tree/master"
+    },
+
+  
+
+
+
     // Add more projects here
   ];
 
