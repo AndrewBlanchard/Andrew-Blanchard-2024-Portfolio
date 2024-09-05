@@ -5,7 +5,7 @@ function About() {
   return (
     <section className={styles.aboutContainer}>
       <h2 className={styles.aboutTitle}>About Me</h2>
-      <img src="https://github.com/AndrewBlanchard/New-REACT-Portfolio/blob/main/public/img_1906.jpg" alt="Andrew Blanchard" className={styles.profileImage} />
+      <img src="public/img_1906.jpg" alt="Andrew Blanchard" className={styles.profileImage} />
       <h2 className={styles.greeting}>Hello!</h2>
       <p className={styles.aboutText}>
         I'm an accomplished and creative Front-End Web Developer with a strong foundation in full-stack web development.
