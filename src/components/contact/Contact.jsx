@@ -8,14 +8,13 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log('Form submitted:', { name, email, message });
   };
 
   return (
     <section className={styles.contactContainer}>
       <h2 className={styles.contactTitle}>Contact Me</h2>
-      <img src="Assets/img_1906.jpg" alt="Andrew Blanchard" className={styles.profileImage} />
+      <img src="public/img_1906.jpg" alt="Andrew Blanchard" className={styles.profileImage} />
       <form onSubmit={handleSubmit} className={styles.form}>
         <div className={styles.formGroup}>
           <label htmlFor="name" className={styles.label}>Name:</label>
