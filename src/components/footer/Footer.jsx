@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <p className={styles.followText}>Follow me on:</p>
+        <p className={styles.followText}>Follow and Connect with me on:</p>
         <div className={styles.links}>
           <a 
             href="https://github.com/AndrewBlanchard" 
